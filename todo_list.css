@@ -1,0 +1,22 @@
+div{
+  height: 100px;
+  margin:auto;
+  width: 50%;
+  border: 3px solid green;
+  padding: 10px;
+
+}
+ #itemstoadd, #create{
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  border-bottom-width: 2px;
+  border-radius: 5px;
+  font-size: inherit;
+  padding: .5em 1em;
+ }
+#button{
+  border: 3px solid grey;
+}
+ #create{
+   border: 3px solid lightblue;
+   background-color: lightblue;
+ }
