@@ -4,16 +4,19 @@
     <meta charset="utf-8">
     <title>To Do List</title>
     <link rel="stylesheet" href="todo_list.css">
+    <script src="http://code.jquery.com/jquery-3.2.1.min.js"
+    integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4="
+    crossorigin="anonymous"></script>
   </head>
   <body>
+    <h1>Ming's Todo List</h1>
     <main>
-    <div>
-      <input type="text" id="itemstoadd" placeholder="What do you need to do?">
+    <form>
+      <input type="text" id="newTodo" placeholder="What do you need to do?">
       <button type="submit" id="create">Create</button>
-    </div>
+    </form>
 <ul id="todoList">
-</ul>
-<div id="emptyList">No tsks, yet</div>
+<div id="emptyList">No tasks, yet</div>
 </ul>
 <div class="counters">
   <div class="counter">Total:<span id="total"></span></div>
@@ -22,7 +25,8 @@
 </div>
 
 
-</main
-<script type="text/javascript" scr="todo_list.js"></script>
+</main>
+<!-- <script type="text/javascript" src="todo_list.js"></script> -->
+<script type="text/javascript" src="./todo_list_jquery.js"></script>
   </body>
 </html>
